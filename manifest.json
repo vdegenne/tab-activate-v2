@@ -1,13 +1,13 @@
 {
-  "manifest_version": 3,
-  "name": "Tab Activate V2",
-  "version": "1.0",
-  "description": "Automatically focuses new tabs, avoiding issues during session restoration.",
-  "permissions": ["tabs", "storage"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "icons": {
-    "128": "./icon128.png"
-  }
+	"manifest_version": 3,
+	"name": "Tab Activate V2",
+	"version": "1.2",
+	"description": "Automatically focuses new tabs, avoiding issues during session restoration.",
+	"permissions": ["tabs", "storage"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"icons": {
+		"128": "./icon128.png"
+	}
 }
